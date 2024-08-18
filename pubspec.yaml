@@ -1,0 +1,30 @@
+name: pixel_adventure
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flame: ^1.17.0
+  flame_tiled: ^1.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tiles/
+    - assets/images/HUD/
+    - assets/images/Background/
+    - assets/images/Items/Fruits/
+    - assets/images/Terrain/
+    - assets/images/Main Characters/Mask Dude/
+    - assets/images/Main Characters/Ninja Frog/
